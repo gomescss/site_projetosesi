@@ -12,7 +12,8 @@
 
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 body {
@@ -31,32 +32,29 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
+    flex-direction: column; 
+    padding: 20px; 
+    width: 100%; 
 }
 
 .titulo {
-    font-size: 80px;
+    font-size: 8vw; 
     font-weight: 100;
-    width: 964.93px;
-    height: 195.27px;
-    padding-top: 65px;
-    padding-bottom: 58.04px;
-    padding-left: 180px;
+    padding-top: 5vh; 
+    padding-bottom: 5vh;
 }
 
 .paragrafo {
-    font-size: 36px;
+    font-size: 4vw; 
     font-weight: 100;
-    width: 1313.84px;
-    height: 195.27px;
-    padding-bottom: 31.79px;
+    margin-bottom: 3vh; 
 }
 
 .paragrafo2 {
-    font-size: 36px;
+    font-size: 4vw; 
     font-weight: 100;
-    width: 726.95px;
-    height: 87.81px;
-    padding-bottom: 73.67px;
+    margin-bottom: 5vh; 
+    padding-bottom: 10px;
 }
 
 strong1 {
@@ -84,7 +82,22 @@ strong6 {
 }
 
 .botao {
-    padding-top: 40px;
     display: flex;
-    padding-left: 380px;
+    justify-content: center;
+    padding-top: 40px; 
+    width: 80%; 
+    max-width: 300px;
+    margin-right: 2px;
+    margin-left: 30px;
+}
+
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 10vw; 
+    }
+
+    .paragrafo,
+    .paragrafo2 {
+        font-size: 5vw; 
+    }
 }
