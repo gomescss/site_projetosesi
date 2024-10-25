@@ -1,0 +1,1 @@
+Este é o site do aplicativo Futuro Extinto, que oferece informações sobre a extração excessiva de recursos marinhos e seus impactos. O site contém uma apresentação do app e um botão para download. Para usar, basta clonar o repositório e abrir o arquivo index.html em um navegador. Feito com 🌊 e compromisso ambiental.
